@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Flight Number</th>
+      <th>Mission Name</th>
+      <th>Launch Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let launch of allLaunches">
+      <td>{{launch.flight_number}}</td>
+      <td>{{launch.mission_name}}</td>
+      <td>{{launch.launch_year}}</td>
+    </tr>
+  </tbody>
+</table>
